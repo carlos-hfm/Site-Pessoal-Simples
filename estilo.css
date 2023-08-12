@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css?family=Lato&display=swap');
+
+body {
+	background-color: #292F36;
+	font-family: 'Lato', sans-serif;
+}
+
+div#interface {
+	width: 1300px;
+	background-color: #E6E8E6;
+	margin: -22px auto 0px auto;
+	box-shadow: 0px 0px 10px black;
+}
+
+.inicio {
+	padding-left: 10px;
+}
+
+/* Formatação do Cabeçalho */
+
+header {
+	background-color: #F06449;
+	border-bottom: #292F36 solid 5px;
+	height: 100px;
+}
+
+header h1 {
+	font-family: 'Lato', sans-serif;
+}
+
+nav ul {
+	list-style: none;
+	position: relative;
+	top: 5px;
+	text-transform: uppercase;
+}
+
+nav li {
+	display: inline-block;
+	padding: 10px;
+	margin-top: -10px;
+	margin-right: 3px;
+	background-color: #DADAD9;
+	font-family: 'Lato', sans-serif;
+}
+
+nav a {
+	text-decoration: none;
+	color: black;
+	font-weight: bold;
+}
+
+nav a:hover {
+	color: white;
+}
+
+nav li:hover {
+	background-color: black;
+}
+
+/* Formatação dos Blocos de Texto */
+
+div#sobre {
+	border: black solid 3px;
+	background-color: rgba(255, 224, 102, 1);
+	position: relative;
+	top: 20px;
+	left: 120px;
+	padding: 0px 0px 0px 10px;
+	margin: 0px 800px 10px 10px;
+	text-align: justify;
+}
+
+div#sobre p {
+	margin-right: 10px;
+}
+
+div#site {
+	border: black solid 3px;
+	background-color: rgba(255, 224, 102, 1);
+	position: relative;
+	top: -195px;
+	left: 640px;
+	padding: 0px 0px 0px 10px;
+	margin: 0px 800px 10px 10px;
+	text-align: justify;
+}
+
+div#site p {
+	margin-right: 10px;
+	margin-bottom: 16px;
+}
+
+/* Formatação do Rodapé */
+
+footer {
+	background-color: #F06449;
+	border-top: #292F36 solid 5px;
+}
+
+footer img {
+	height: 30px;
+}
+
+footer ul {
+	list-style: none;
+}
